@@ -1,0 +1,5 @@
+[assembly: ObjCRuntime.LinkWith ("KalturaNetKit.framework", SmartLink = true)]
+[assembly: ObjCRuntime.LinkWith ("Log.framework", SmartLink = true)]
+[assembly: ObjCRuntime.LinkWith ("PlayKit.framework", SmartLink = true, Frameworks = "AVFoundation CFNetwork CoreGraphics UIKit Foundation CoreFoundation Security SystemConfiguration CoreData MobileCoreServices CoreLocation", LinkerFlags = "-ObjC -all_load -fobjc-arc")]
+[assembly: ObjCRuntime.LinkWith ("SwiftyJSON.framework", SmartLink = true)]
+[assembly: ObjCRuntime.LinkWith ("SwiftyXMLParser.framework", SmartLink = true)]
